@@ -1,1 +1,12 @@
 
+body{
+  background-color: #6495ED; /*CornflowerBlue*/
+  background-position: center;
+  font-family: 'verdana', Sans-serif;
+  font-size: 22px;
+  text-align: center;
+  width: auto;
+  padding: 0px;
+  margin: 0 auto;
+  text-decoration: none;
+}
