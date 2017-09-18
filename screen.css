@@ -15,3 +15,25 @@ h1 {
   background-color:	#B0E0E6; /*PowderBlue*/
   color: #FF0000; 
 }
+
+#first h2{
+  color: #CD853F; /*PERU*/
+  font-size: 2em;
+}
+
+#email{
+  
+ color: #FF6347;/*TOMATO*/
+ font-size: 2em;
+}
+
+#phoneNum{
+  color: #FF8C00; /*DARK ORANGE*/
+  font-size: 2em; 
+}
+
+#DOB{
+  color: 	#FF7F50; /*CORAL*/
+  font-size: 2em;
+  
+}
