@@ -27,13 +27,13 @@ h1 {
  font-size: 1em;
 }
 
-#phoneNum{
-  color: #FF8C00; /*DARK ORANGE*/
+#phoneNum p{
+  color: #8B008B; /*DARK MAGENTA*/
   font-size: 1em; 
 }
 
 #DOB label{
-  color: 	#FF7F50; /*CORAL*/
+  color: 	#DC143C; /*CRIMSON*/
   font-size: 1em;
   
 }
