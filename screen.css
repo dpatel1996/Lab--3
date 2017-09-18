@@ -17,13 +17,13 @@ h1 {
 }
 
 #first h2{
-  color: #CD853F; /*PERU*/
+  color: 	#A52A2A; /*BROWN*/
   font-size: 1em;
 }
 
 #email{
   
- color: #FF6347;/*TOMATO*/
+ color: #483D8B;/*DARKSLATEBLUE*/
  font-size: 1em;
 }
 
@@ -32,7 +32,7 @@ h1 {
   font-size: 1em; 
 }
 
-#DOB{
+#DOB label{
   color: 	#FF7F50; /*CORAL*/
   font-size: 1em;
   
