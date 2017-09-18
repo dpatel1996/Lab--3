@@ -10,3 +10,8 @@ body{
   margin: 0 auto;
   text-decoration: none;
 }
+
+h1 {
+  background-color:	#B0E0E6; /*PowderBlue*/
+  color: #FF0000; 
+}
