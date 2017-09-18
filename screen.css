@@ -14,26 +14,33 @@ body{
 h1 {
   background-color:	#B0E0E6; /*PowderBlue*/
   color: #FF0000; 
+  font-size: 3em;
 }
 
 #first h2{
   color: 	#A52A2A; /*BROWN*/
-  font-size: 1em;
+  font-size: 2em;
 }
 
 #email{
   
  color: #483D8B;/*DARKSLATEBLUE*/
- font-size: 1em;
+ font-size: 1.5em;
+ width: auto;
+ height: auto;
+ border: 1px solid black;
+ box-sizing: border-box;
+ padding: auto;
 }
 
 #phoneNum p{
   color: #8B008B; /*DARK MAGENTA*/
-  font-size: 1em; 
+  font-size: 1.5em;
+  
 }
 
 #DOB label{
   color: 	#DC143C; /*CRIMSON*/
-  font-size: 1em;
+  font-size: 1.5em;
   
 }
