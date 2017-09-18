@@ -18,22 +18,22 @@ h1 {
 
 #first h2{
   color: #CD853F; /*PERU*/
-  font-size: 2em;
+  font-size: 1em;
 }
 
 #email{
   
  color: #FF6347;/*TOMATO*/
- font-size: 2em;
+ font-size: 1em;
 }
 
 #phoneNum{
   color: #FF8C00; /*DARK ORANGE*/
-  font-size: 2em; 
+  font-size: 1em; 
 }
 
 #DOB{
   color: 	#FF7F50; /*CORAL*/
-  font-size: 2em;
+  font-size: 1em;
   
 }
