@@ -3,9 +3,9 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title> Lab 3 </title>
   <link rel="stylesheet" type="text/css" href="screen.css">
-  <link rel="stylesheet" type="text/css" href="EricMeyer.css">
 </head>
 <body>
 
@@ -15,19 +15,22 @@
   <div id="first">
     <h2> Your credentials </h2>
   </div>
-  
+  <fieldset>
   <div id="email">
-    <p> Email Address : <input id="emailAddress" type="email" placeholder="abc@example.com"></p>
+  <label for="email">Email:</label>
+    <input id="emailAddress" type="email" placeholder="abc@example.com"></p>
   </div>
 
   <div id="phoneNum">
-    <p> Phone Number: <input type="text" name="Phone_no_field"/></p> 
+  <label for="phoneNum"> Phone Number:</label>
+    <input type="text" name="Phone_no_field"/></p> 
   </div>
 
   <div id="DOB">
-    <p> Date of Birth: <input type="text" placeholder="(mm/dd/yyyy)"/></p>
+  <label for="Dob"> Date of Birth: </label>
+    <input type="text" placeholder="(mm/dd/yyyy)"/></p>
   </div>
-  
+ </fieldset> 
   <p>
     <button type="submit">Submit</button> 
   </p>
