@@ -21,7 +21,7 @@ h1 {
 #email {
   color:#483D8B;
   font-size: 1.5em;
-  width: auto;
+  width: 100%;
   height: auto;
   border: 2px solid black;
   display: inline-block;
@@ -30,9 +30,19 @@ h1 {
 #phoneNum {
   color: #8B008B;
   font-size: 1.5em;
-  width: auto;
+  width: 100%;
   height: auto;
   border: 2px solid yellow;
+  display: inline-block;
+  
+}
+
+#DOB {
+  color: #DC143C;
+  font-size: 1.5em;
+  width: 50%;
+  height: auto;
+  border: 2px solid purple;
   display: inline-block;
   
 }
