@@ -10,6 +10,7 @@ body{
   margin: 0 auto;
   text-decoration: none;
   position: relative;
+  /*background-image: url("image/backy.jpg");*/
 }
 
 h1 {
@@ -19,9 +20,9 @@ h1 {
 }
 
 #email {
-  color:#483D8B;
+  color:#FF1493;
   font-size: 1.5em;
-  width: 100%;
+  width: 50%;
   height: auto;
   border: 2px solid black;
   display: inline-block;
@@ -30,7 +31,7 @@ h1 {
 #phoneNum {
   color: #8B008B;
   font-size: 1.5em;
-  width: 100%;
+  width: 50%;
   height: auto;
   border: 2px solid yellow;
   display: inline-block;
