@@ -19,18 +19,8 @@ h1 {
   font-size: 3em;
 }
 
-form {
-  /*max-width: 300px;*/
-  margin: 10px auto;
-  padding: 10px 20px;
- /* background: #7FFF00; /*Chartreuse*/
-  border-radius: 8px;
-  width: 100%;
-}
 
-fieldset{
-  margin-bottom: 40px;
-}
+
 #email {
   color:#FF1493;
   font-size: 1.5em;
