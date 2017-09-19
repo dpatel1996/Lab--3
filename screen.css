@@ -9,6 +9,7 @@ body{
   padding: 0px;
   margin: 0 auto;
   text-decoration: none;
+  position: relative;
 }
 
 h1 {
@@ -17,39 +18,21 @@ h1 {
   font-size: 3em;
 }
 
-#first h2{
-  color: 	#A52A2A; /*BROWN*/
-  font-size: 2em;
-}
-
-.email{
-  
- color: #483D8B;/*DARKSLATEBLUE*/
- font-size: 1.5em;
- width: 100%;
- height: 100%;
- border: 1px solid black;
- box-sizing: border-box;
-}
-
-#phoneNum p{
-  color: #8B008B; /*DARK MAGENTA*/
+#email {
+  color:#483D8B;
   font-size: 1.5em;
-  
-}
-
-#DOB label{
-  color: 	#DC143C; /*CRIMSON*/
-  font-size: 1.5em;
-  
-}
-
-/*.resize email{
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
+  width: auto;
+  height: auto;
+  border: 2px solid black;
   display: inline-block;
-  border: 1px solid black;
-  border-radius: 2px;
-  box-sizing: border-box;
-}*/
+}
+
+#phoneNum {
+  color: #8B008B;
+  font-size: 1.5em;
+  width: auto;
+  height: auto;
+  border: 2px solid yellow;
+  display: inline-block;
+  
+}
