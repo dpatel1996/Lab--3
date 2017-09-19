@@ -19,6 +19,14 @@ h1 {
   font-size: 3em;
 }
 
+form {
+  /*max-width: 300px;*/
+  margin: 10px auto;
+  padding: 10px 20px;
+ /* background: #7FFF00; /*Chartreuse*/
+  border-radius: 8px;
+  width: 100%;
+}
 #email {
   color:#FF1493;
   font-size: 1.5em;
@@ -45,5 +53,19 @@ h1 {
   height: auto;
   border: 2px solid purple;
   display: inline-block;
+  
+}
+
+button{
+  padding: 20px 40px 19px 40px;
+  color: #DEB887; /*BurlyWood*/
+  background-color: white;
+  font-size: 16px;
+  text-align: center;
+  border-radius: 3px;
+  /*width: 100%;*/
+  border: 1px solid pink; 
+  border-width: 1.5 px 1.5px 2px;
+  margin-bottom: 8px;
   
 }
