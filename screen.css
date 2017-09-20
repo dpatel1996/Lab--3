@@ -19,26 +19,24 @@ h1 {
   font-size: 3em;
 }
 
-fieldset{
- /*max-width: 60%;*/
- border-color: black;
- /*border: 1px solid rgb(255,232,57);*/
- width: 400px;
- float: center;
- margin: 0 auto;
-}
-
 form{
   text-align: center;
 }
 input{
-  max-width: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 7px 0;
+  padding: 10px 18px;
+  border-radius: 5px;
+   
 }
 
 label{
   display: block;
+  text-align: center; 
+  font-size: 1.5em;
 }
-#email {
+#Email {
   color: #A52A2A;
   font-size: 1em;
   width: 50%;
@@ -47,7 +45,7 @@ label{
   display: inline-block;
 }
 
-#phoneNum {
+#PhoneNum{
   color: #8B008B;
   font-size: 1em;
   width: 50%;
@@ -76,14 +74,22 @@ button{
   border-radius: 3px;
   /*width: 100%;*/
   border: 1px solid pink; 
-  border-width: 1.5 px 1.5px 2px;
+  border-width: 1.5px 1.5px 2px;
   margin-bottom: 8px;
   
 }
 
-@media only screen and (max-width: 480px){
+@media only screen and (min-width: 480px){
   form{
-    max-width: 480px;
+    min-width: 480px;
+  }
+  
+  label{
+    font-size: 1.3em;
+  }
+  
+  input{
+    width: 50%;
   }
 }
 
